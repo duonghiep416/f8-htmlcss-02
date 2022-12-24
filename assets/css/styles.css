@@ -92,6 +92,7 @@ header {
     margin-left: auto;
     background-color: #171100;
     min-width: 144px;
+    line-height: 49px;
 }
 
 .hero {
@@ -210,14 +211,33 @@ header {
 
 .hero .info .action .btn-courses {
     min-width: 180px;
-    height: 64px;
     border-radius: 32px;
     font-weight: 600;
     font-size: 18px;
-    line-height: 30px;
-    /* identical to box height, or 167% */
-
+    line-height: 64px;
     text-align: center;
-
     color: #ffffff;
+}
+
+.hero .info .stats {
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #5f5b53;
+    margin-top: 48px;
+    margin-bottom: 8px;
+}
+
+.hero .info .stats-detail .stats-number {
+    font-family: "Sen", sans-serif;
+    font-weight: 700;
+    font-size: 4.4rem;
+    margin-right: 10px;
+    color: #171100;
+}
+
+.hero .info .stats-detail .stats-text {
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin-right: 28px;
+    color: #5f5b53;
 }
