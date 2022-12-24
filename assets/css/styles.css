@@ -373,3 +373,78 @@ header {
     line-height: 1.67;
     color: #171100;
 }
+
+.popular-courses .info .btn-card {
+    background-color: #171100;
+}
+
+.popular-courses .info .btn-card:hover {
+    background-color: var(--primary-color);
+}
+
+/* ==================== quotes ===================== */
+
+.quote {
+    background-color: #2e2100;
+    height: 380px;
+}
+
+.quote .content {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 96px 0;
+}
+
+.quote .author-info img {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.quote .author-info .name {
+    margin-top: 18px;
+    margin-bottom: 4px;
+    font-family: "Sen", sans-serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 1.42;
+    color: #f7f7f7;
+}
+
+.quote .author-info .job {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb3;
+}
+
+.quote .quote-text {
+    width: 770px;
+}
+
+.quote .quote-text .text {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2.6rem;
+    line-height: 1.54;
+    color: #ffffff;
+}
+
+.quote .quote-text .text {
+    padding-left: 30px;
+}
+
+.quote .author-info .dot {
+    display: inline-block;
+    margin-top: 28px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #634700;
+}
+
+.quote .author-info .dot-2 {
+    background-color: var(--primary-color);
+}
