@@ -240,4 +240,136 @@ header {
     font-size: 1.8rem;
     margin-right: 28px;
     color: #5f5b53;
+    margin-bottom: 16px;
+}
+
+/* ================ Popular course ====================== */
+.card {
+    font-size: 0;
+}
+.popular-courses {
+    height: 100vh;
+}
+
+.popular-courses .header-courses .title {
+    font-family: "Sen", sans-serif;
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 1.26;
+    letter-spacing: -0.02em;
+    color: #171100;
+}
+
+.popular-courses .header-courses .desc {
+    width: 458px;
+    margin-top: 16px;
+}
+
+.popular-courses .header-courses {
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+.popular-courses .header-courses .next-page i {
+    padding: 14px 17px;
+    color: var(--primary-color);
+    border-radius: 50%;
+    border: 1px solid var(--primary-color);
+    margin-right: 18px;
+}
+
+.popular-courses .header-courses .next-page i:hover {
+    color: #fff;
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+.popular-courses .card {
+    width: 370px;
+    transition: 0.5s;
+}
+
+.popular-courses .card:hover {
+    box-shadow: 0px 18px 36px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    border: none;
+}
+
+.popular-courses .card:hover .info {
+    border: none;
+}
+
+.popular-courses .card-course {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular-courses .card-course .info {
+    padding: 16px 22px 22px;
+    border-right: 1px solid #e2dfda;
+    border-bottom: 1px solid #e2dfda;
+    border-left: 1px solid #e2dfda;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.popular-courses .card .main-img {
+    width: 370px;
+    height: 278px;
+    object-fit: cover;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.popular-courses .card .course-title {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #171100;
+    margin-bottom: 6px;
+}
+
+.popular-courses .card .title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-courses .card .review img {
+    margin-right: 6px;
+}
+
+.popular-courses .card .review span {
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #fea31b;
+}
+
+.popular-courses .card .review {
+    display: flex;
+    align-items: center;
+}
+
+.popular-courses .course-desc {
+    width: 326px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #5f5b53;
+}
+
+.popular-courses .info .foot-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.popular-courses .info .foot-card .price {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #171100;
 }
