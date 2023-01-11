@@ -32,7 +32,7 @@ a {
     min-width: 118px;
     padding: 0 16px;
     background-color: var(--primary-color);
-    border-radius: 25px;
+    border-radius: 999px;
     text-align: center;
     line-height: 50px;
     font-weight: 600;
@@ -54,9 +54,11 @@ header {
 }
 .navbar {
     display: flex;
+    z-index: 10;
     align-items: center;
     justify-items: center;
-    padding-top: 36px;
+    padding: 36px 0 8px;
+    background-color: #fffcf4;
 }
 
 .navbar ul {
@@ -80,11 +82,11 @@ header {
     background: #171100;
     border-radius: 1px;
     left: 21px;
-    bottom: 5px;
+    bottom: 6px;
 }
 
 .navbar ul li a:hover {
-    font-weight: 600;
+    text-shadow: 1px 0 0 currentColor;
     color: #171100;
 }
 
@@ -95,8 +97,15 @@ header {
     line-height: 49px;
 }
 
+nav.fixed {
+    position: sticky;
+    top: -28px;
+}
+
+/* =============Hero============== */
+
 .hero {
-    margin-top: 65px;
+    margin-top: 56px;
     display: flex;
     align-items: center;
     justify-content: space-between;
