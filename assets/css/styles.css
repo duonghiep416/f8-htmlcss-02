@@ -676,7 +676,8 @@ h2.title {
     position: absolute;
 }
 
-.footer .item {
+.footer .item,
+.footer .item a {
     margin-bottom: 12px;
     max-width: 231px;
     font-weight: 400;
