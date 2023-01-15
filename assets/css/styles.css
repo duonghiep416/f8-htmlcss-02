@@ -95,6 +95,7 @@ header {
     background-color: #171100;
     min-width: 144px;
     line-height: 49px;
+    font-size: 1.6rem;
 }
 
 nav.fixed {
